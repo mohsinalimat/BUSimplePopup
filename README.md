@@ -111,10 +111,8 @@ pod "BUSimplePopup"
 
 ## Author
 
-Burak Üstün 
-Burak@Ustun.co
-Twitter.com/burakustn
-
+Burak Üstün  
+Burak@Ustun.co  
+Twitter.com/burakustn  
 ## License
-
 BUSimplePopup is available under the MIT license. See the LICENSE file for more info.
