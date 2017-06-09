@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BUSimplePopup_Example' do
+  pod 'BUSimplePopup', :path => '../'
+
+  target 'BUSimplePopup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
