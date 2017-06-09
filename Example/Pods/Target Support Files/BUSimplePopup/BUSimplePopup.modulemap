@@ -1,0 +1,6 @@
+framework module BUSimplePopup {
+  umbrella header "BUSimplePopup-umbrella.h"
+
+  export *
+  module * { export * }
+}

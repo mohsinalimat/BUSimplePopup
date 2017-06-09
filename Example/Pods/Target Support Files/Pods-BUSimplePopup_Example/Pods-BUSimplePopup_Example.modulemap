@@ -1,0 +1,6 @@
+framework module Pods_BUSimplePopup_Example {
+  umbrella header "Pods-BUSimplePopup_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

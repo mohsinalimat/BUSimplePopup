@@ -1,0 +1,16 @@
+PODS:
+  - BUSimplePopup (0.1.0)
+
+DEPENDENCIES:
+  - BUSimplePopup (from `../`)
+
+EXTERNAL SOURCES:
+  BUSimplePopup:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BUSimplePopup: 52cf2489a3074cbd191ab8bc3dbb45afb90e0772
+
+PODFILE CHECKSUM: a414175806485bfeddd316ec1616a81c198d86df
+
+COCOAPODS: 1.2.1
