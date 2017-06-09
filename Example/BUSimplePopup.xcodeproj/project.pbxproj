@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0B178E89EEDCE4CC9BFDE596 /* Pods-BUSimplePopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUSimplePopup_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BUSimplePopup_Example/Pods-BUSimplePopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2C0D9CCCCE9E107BDDFC0A01 /* Pods_BUSimplePopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUSimplePopup_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		388BE17F90852A206E248CCC /* BUSimplePopup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BUSimplePopup.podspec; path = ../BUSimplePopup.podspec; sourceTree = "<group>"; };
-		3A570B8E1CB6E424F9D391F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		388BE17F90852A206E248CCC /* BUSimplePopup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BUSimplePopup.podspec; path = ../BUSimplePopup.podspec; sourceTree = "<group>"; };
+		3A570B8E1CB6E424F9D391F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BUSimplePopup_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUSimplePopup_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		893558B2654213144EE386C2 /* Pods-BUSimplePopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUSimplePopup_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BUSimplePopup_Tests/Pods-BUSimplePopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9054A4812F004A85070628FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9054A4812F004A85070628FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA9244A81DD4EAC851D9489A /* Pods-BUSimplePopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUSimplePopup_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BUSimplePopup_Tests/Pods-BUSimplePopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF825E0AE9F8326CB59EBE3B /* Pods_BUSimplePopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUSimplePopup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65CE12A64CB91F3F6FF0BFF /* Pods-BUSimplePopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUSimplePopup_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BUSimplePopup_Example/Pods-BUSimplePopup_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4U9EEC66SW;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4U9EEC66SW;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = 0B178E89EEDCE4CC9BFDE596 /* Pods-BUSimplePopup_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U9EEC66SW;
 				INFOPLIST_FILE = BUSimplePopup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = F65CE12A64CB91F3F6FF0BFF /* Pods-BUSimplePopup_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U9EEC66SW;
 				INFOPLIST_FILE = BUSimplePopup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 893558B2654213144EE386C2 /* Pods-BUSimplePopup_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4U9EEC66SW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9244A81DD4EAC851D9489A /* Pods-BUSimplePopup_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4U9EEC66SW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
